@@ -1,60 +1,55 @@
 <div align="center">
 
-# Andrew Muratov
+<img src="./assets/profile-header.svg" width="100%" alt="Andrew Muratov — Computer Science at the University of Toronto Mississauga; security, privacy, systems, and software" />
 
-### Computer Science @ University of Toronto Mississauga
+<br />
 
-Building privacy-first software, studying secure systems, and heading toward the **Information Security Specialist**.
-
-[![Gapwise](https://img.shields.io/badge/Open_Gapwise-0A84FF?style=for-the-badge&logo=vercel&logoColor=white)](https://gapwise-utm.vercel.app)
+[![Gapwise](https://img.shields.io/badge/Gapwise-Live-0A84FF?style=for-the-badge&logo=vercel&logoColor=white)](https://gapwise.ca)
+[![Source](https://img.shields.io/badge/Gapwise-Source-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andrewmuratov/gapwise)
+[![Developers](https://img.shields.io/badge/Gapwise-Developers-0969DA?style=for-the-badge&logo=openapiinitiative&logoColor=white)](https://gapwise.ca/developers)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--0561--2945-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-0561-2945)
-
-<sub>Toronto, Canada · TypeScript · Python · Linux · Web Development · Security</sub>
 
 </div>
 
----
-
 ## About
 
-I'm a first-year Computer Science student at **UTM** with a strong interest in information security, privacy-preserving systems, and software architecture.
+I'm a Computer Science student at the **University of Toronto Mississauga**, focused on information security, privacy-preserving systems, software architecture, and the mathematics behind computer science.
 
-I like building tools that solve real problems and remain understandable, dependable, and respectful of the people using them.
+I like building software that has to earn trust: useful enough to matter, understandable enough to inspect, and careful about what it claims to know. My current flagship project is **Gapwise**, a privacy-first student context and campus-intelligence platform for UTM.
 
-- 🔐 Interested in **secure system design, cryptography, privacy, and application security**
-- 🧭 Building **[Gapwise for UTM](https://github.com/andrewmuratov/gapwise)**, a privacy-first timetable, gap planner, and campus routing app
-- 🐧 Daily Linux user with a preference for practical, inspectable tooling
-- 📐 Interested in the overlap between **computer science and mathematics**
-- 🧪 Learning by shipping real software, testing assumptions, and refining architecture
+- **Security:** secure system design, application security, authentication, authorization, and privacy boundaries
+- **Systems:** deterministic domain logic, APIs, data provenance, reliability, and failure semantics
+- **Mathematics:** algorithms, discrete mathematics, linear algebra, and foundations for cryptography
+- **Engineering:** TypeScript, React, Python, Linux, PostgreSQL/Supabase, MapLibre, Bun, and Vercel
 
 ---
 
-## Featured project
+## Featured work
 
 ### [Gapwise for UTM](https://github.com/andrewmuratov/gapwise)
 
-**Make every gap on campus count.**
+**A privacy-first student context and campus-intelligence platform built for the University of Toronto Mississauga.**
 
-Gapwise turns a University of Toronto ACORN calendar export into a readable timetable, finds usable gaps between classes, and adds campus-aware routing and planning — while keeping the original schedule local to the browser.
+Gapwise turns an ACORN `.ics` export into an actionable view of a student's day: what is next, where they need to go, when they should leave, and what they can realistically do with the time between classes. The original calendar file is parsed locally in the browser, and the core experience works without an account.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 01 · Understand
-Readable weekly schedules and useful gap context from an existing ACORN export.
+#### Student experience
+Timetable, Today, route-aware gap planning, leave-by timing, campus navigation, destination feasibility, optional encrypted sync, and Day Replay.
 
 </td>
 <td width="33%" valign="top">
 
-### 02 · Move
-Campus-aware routing between recognized UTM buildings, entrances, and mapped paths.
+#### Campus intelligence
+Canonical UTM building data, mapped entrances, deterministic routing, explicit uncertainty, accessibility-aware semantics, and a public campus API.
 
 </td>
 <td width="33%" valign="top">
 
-### 03 · Protect
-Privacy-first architecture with local parsing and optional encrypted cloud sync.
+#### Trust model
+Local-first calendar parsing, minimized private data, permissioned integrations, fail-closed accessibility behavior, and deterministic calculations instead of LLM guesswork.
 
 </td>
 </tr>
@@ -62,33 +57,29 @@ Privacy-first architecture with local parsing and optional encrypted cloud sync.
 
 <div align="center">
 
-`React 19` · `TypeScript` · `MapLibre` · `Supabase` · `Bun` · `Vercel`
+`React 19` · `TypeScript` · `TanStack` · `MapLibre` · `Supabase` · `Bun` · `Vercel`
 
-**[Live app](https://gapwise-utm.vercel.app)** · **[Source](https://github.com/andrewmuratov/gapwise)**
+**[Open Gapwise](https://gapwise.ca)** · **[Today](https://gapwise.ca/today)** · **[Day Replay](https://gapwise.ca/replay)** · **[Developers](https://gapwise.ca/developers)** · **[OpenAPI 3.1](https://gapwise.ca/openapi.json)** · **[Source](https://github.com/andrewmuratov/gapwise)**
 
 </div>
 
 ---
 
-## What I'm focused on
+## What I'm working toward
 
-```text
-secure systems      ███████████████████░
-privacy             ██████████████████░░
-software design     █████████████████░░░
-mathematics         ███████████████░░░░░
-research            ████████████░░░░░░░░
-```
+I'm building a stronger foundation in **algorithms, systems, cryptography, and rigorous software engineering** while working toward the Information Security Specialist path at UTM.
 
-Right now, I'm especially interested in building a stronger foundation in algorithms, systems, cryptography, and the mathematics behind computer science while continuing to improve Gapwise as a real product.
+A few principles I try to carry into the software I build:
+
+> **Make useful things. Minimize sensitive data. Make uncertainty explicit. Test the failure modes.**
 
 ---
 
-## GitHub metrics
+## GitHub activity
 
 <div align="center">
 
-![GitHub Metrics](./metrics.svg)
+<img src="./metrics.svg" width="100%" alt="Andrew Muratov GitHub activity metrics" />
 
 </div>
 
@@ -96,10 +87,8 @@ Right now, I'm especially interested in building a stronger foundation in algori
 
 <div align="center">
 
-### Find me
+**[gapwise.ca](https://gapwise.ca)** · **[GitHub](https://github.com/andrewmuratov)** · **[ORCID](https://orcid.org/0009-0007-0561-2945)**
 
-[ORCID](https://orcid.org/0009-0007-0561-2945) · [Gapwise](https://gapwise-utm.vercel.app) · [GitHub](https://github.com/andrewmuratov)
-
-<sub>Building useful things, then making them safer.</sub>
+<sub>Toronto, Canada · Building useful systems and making them safer.</sub>
 
 </div>
