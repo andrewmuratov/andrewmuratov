@@ -17,7 +17,18 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          if git ls-remote --exit-code --heads "$remote" profile-refresh-2026 >/dev/null 2>&1; then
-            git push "$remote" --delete profile-refresh-2026
+          endpoint="https://api.github.com/repos/${GITHUB_REPOSITORY}/git/refs/heads/profile-refresh-2026"
+          status=$(curl --silent --show-error --output response.json --write-out "%{http_code}" \
+            --request DELETE \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer ${GH_TOKEN}" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            "$endpoint")
+
+          if [ "$status" = "204" ] || [ "$status" = "404" ]; then
+            exit 0
           fi
+
+          cat response.json
+          echo "Unexpected GitHub API status: $status" >&2
+          exit 1
