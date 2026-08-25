@@ -1,0 +1,23 @@
+name: Cleanup obsolete profile branch
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete obsolete profile branch if it exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads "$remote" profile-refresh-2026 >/dev/null 2>&1; then
+            git push "$remote" --delete profile-refresh-2026
+          fi
