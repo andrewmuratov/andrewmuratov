@@ -1,55 +1,56 @@
 <div align="center">
 
-<img src="./assets/profile-header.svg" width="100%" alt="Andrew Muratov — Computer Science at the University of Toronto Mississauga; security, privacy, systems, and software" />
+<img src="./assets/profile-header.svg" width="100%" alt="Andrew Muratov — Computer Science at the University of Toronto Mississauga; security, privacy, systems, software architecture, and the Gapwise ecosystem in blue, white, and purple" />
 
 <br />
 
-[![Gapwise](https://img.shields.io/badge/Gapwise-Live-0A84FF?style=for-the-badge&logo=vercel&logoColor=white)](https://gapwise.ca)
-[![Source](https://img.shields.io/badge/Gapwise-Source-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andrewmuratov/gapwise)
-[![Developers](https://img.shields.io/badge/Gapwise-Developers-0969DA?style=for-the-badge&logo=openapiinitiative&logoColor=white)](https://gapwise.ca/developers)
+[![Gapwise](https://img.shields.io/badge/Gapwise-gapwise.ca-4EA7FE?style=for-the-badge&logo=vercel&logoColor=white)](https://gapwise.ca)
+[![Developer Docs](https://img.shields.io/badge/Developer_Docs-docs.gapwise.ca-161B22?style=for-the-badge&logo=readthedocs&logoColor=white)](https://docs.gapwise.ca)
+[![Gapwise AI](https://img.shields.io/badge/Gapwise_AI-ai.gapwise.ca-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://ai.gapwise.ca/api/health)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--0561--2945-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-0561-2945)
 
 </div>
 
 ## About
 
-I'm a Computer Science student at the **University of Toronto Mississauga**, focused on information security, privacy-preserving systems, software architecture, and the mathematics behind computer science.
+I'm a Computer Science student at the **University of Toronto Mississauga** focused on information security, privacy, systems, and software architecture.
 
-I like building software that has to earn trust: useful enough to matter, understandable enough to inspect, and careful about what it claims to know. My current flagship project is **Gapwise**, a privacy-first student context and campus-intelligence platform for UTM.
-
-- **Security:** secure system design, application security, authentication, authorization, and privacy boundaries
-- **Systems:** deterministic domain logic, APIs, data provenance, reliability, and failure semantics
-- **Mathematics:** algorithms, discrete mathematics, linear algebra, and foundations for cryptography
-- **Engineering:** TypeScript, React, Python, Linux, PostgreSQL/Supabase, MapLibre, Bun, and Vercel
+I like building software where the trust boundary is visible: source-of-truth data stays separate from derived calculations, uncertainty stays explicit, and higher-level interfaces do not quietly invent facts. Most of my current engineering work is concentrated in **Gapwise** and the infrastructure around it.
 
 ---
 
-## Featured work
-
-### [Gapwise for UTM](https://github.com/andrewmuratov/gapwise)
-
-**A privacy-first student context and campus-intelligence platform built for the University of Toronto Mississauga.**
-
-Gapwise turns an ACORN `.ics` export into an actionable view of a student's day: what is next, where they need to go, when they should leave, and what they can realistically do with the time between classes. The original calendar file is parsed locally in the browser, and the core experience works without an account.
+## Gapwise ecosystem
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-#### Student experience
-Timetable, Today, route-aware gap planning, leave-by timing, campus navigation, destination feasibility, optional encrypted sync, and Day Replay.
+### [Gapwise](https://github.com/andrewmuratov/gapwise)
+**Core product + campus-intelligence platform**
+
+A privacy-first UTM student app that turns a local ACORN `.ics` export into timetable context, route-aware gap planning, leave-by timing, campus navigation, Day Replay, and deterministic campus intelligence.
+
+**[Live app](https://gapwise.ca)** · **[Developers](https://gapwise.ca/developers)** · **[Source](https://github.com/andrewmuratov/gapwise)**
 
 </td>
 <td width="33%" valign="top">
 
-#### Campus intelligence
-Canonical UTM building data, mapped entrances, deterministic routing, explicit uncertainty, accessibility-aware semantics, and a public campus API.
+### [Gapwise Docs](https://github.com/andrewmuratov/gapwise-docs)
+**Public developer documentation**
+
+The official documentation surface for the Gapwise UTM API, OpenAPI 3.1 contract, platform semantics, provenance and uncertainty model, plus the JavaScript/TypeScript and Python SDK surfaces.
+
+**[Docs](https://docs.gapwise.ca)** · **[API](https://api.gapwise.ca/v1)** · **[OpenAPI](https://api.gapwise.ca/openapi.json)**
 
 </td>
 <td width="33%" valign="top">
 
-#### Trust model
-Local-first calendar parsing, minimized private data, permissioned integrations, fail-closed accessibility behavior, and deterministic calculations instead of LLM guesswork.
+### [Gapwise AI](https://github.com/andrewmuratov/gapwise-ai)
+**Permissioned MCP integration layer**
+
+A provider-neutral Model Context Protocol service for explicitly delegated student context. Gapwise remains the source of truth for schedules, routing, and gap calculations while assistants reason over bounded, permissioned data.
+
+**[Service](https://ai.gapwise.ca/api/health)** · **[MCP](https://ai.gapwise.ca/api/mcp)** · **[Source](https://github.com/andrewmuratov/gapwise-ai)**
 
 </td>
 </tr>
@@ -57,25 +58,36 @@ Local-first calendar parsing, minimized private data, permissioned integrations,
 
 <div align="center">
 
-`React 19` · `TypeScript` · `TanStack` · `MapLibre` · `Supabase` · `Bun` · `Vercel`
-
-**[Open Gapwise](https://gapwise.ca)** · **[Today](https://gapwise.ca/today)** · **[Day Replay](https://gapwise.ca/replay)** · **[Developers](https://gapwise.ca/developers)** · **[OpenAPI 3.1](https://gapwise.ca/openapi.json)** · **[Source](https://github.com/andrewmuratov/gapwise)**
+**One system, three surfaces:** product truth in **blue**, developer documentation in **white**, and the permissioned AI layer in **purple**.
 
 </div>
 
 ---
 
-## What I'm working toward
+## How I build
 
-I'm building a stronger foundation in **algorithms, systems, cryptography, and rigorous software engineering** while working toward the Information Security Specialist path at UTM.
+- **Privacy first.** Minimize sensitive data, keep local processing local when possible, and make optional cloud features explicit.
+- **Deterministic facts before inference.** Timetable arithmetic, routes, budgets, and leave-by calculations belong in tested domain logic, not model guesswork.
+- **Provenance and uncertainty matter.** Unknown, approximate, inferred, and verified states should stay distinguishable all the way to the interface.
+- **Failure behavior is part of the feature.** Authentication, authorization, accessibility, degraded routing, stale data, and partial availability deserve deliberate semantics.
 
-A few principles I try to carry into the software I build:
+### Working stack
 
-> **Make useful things. Minimize sensitive data. Make uncertainty explicit. Test the failure modes.**
+`TypeScript` · `React` · `Next.js` · `TanStack` · `Python` · `PostgreSQL / Supabase` · `MapLibre` · `Bun` · `Node.js` · `Linux` · `Vercel`
 
 ---
 
-## GitHub activity
+## Current direction
+
+I'm strengthening my foundations in **algorithms, systems, cryptography, discrete mathematics, and rigorous software engineering** while continuing to push Gapwise from a student project toward a coherent, inspectable platform.
+
+> **Make useful things. Minimize sensitive data. Keep the source of truth clear. Test the failure modes.**
+
+---
+
+<details>
+<summary><strong>GitHub activity</strong></summary>
+<br />
 
 <div align="center">
 
@@ -83,12 +95,14 @@ A few principles I try to carry into the software I build:
 
 </div>
 
+</details>
+
 ---
 
 <div align="center">
 
-**[gapwise.ca](https://gapwise.ca)** · **[GitHub](https://github.com/andrewmuratov)** · **[ORCID](https://orcid.org/0009-0007-0561-2945)**
+**[gapwise.ca](https://gapwise.ca)** · **[docs.gapwise.ca](https://docs.gapwise.ca)** · **[ai.gapwise.ca](https://ai.gapwise.ca/api/health)** · **[GitHub](https://github.com/andrewmuratov)** · **[ORCID](https://orcid.org/0009-0007-0561-2945)**
 
-<sub>Toronto, Canada · Building useful systems and making them safer.</sub>
+<sub>Toronto, Canada · Security, privacy, systems, and software.</sub>
 
 </div>
