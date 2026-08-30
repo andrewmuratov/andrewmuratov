@@ -1,71 +1,24 @@
-<div align="center">
+# Andrew Muratov
 
-<pre>
-  .@#                        #@.
-   #@   ..              ..   @#
-   *@+  #@.            .@#  +@*
-   .@@. ##              #@..@@.
-    +@@+@#              #@+@@+
-     +@@@@:            :@@@@+
-      .*@@#:          :#@@*.
-        .*@@@+.    .+@@@*.
-    #@@*. .*@@@#++#@@@*. .*@@#
-    *@@@@*  *@@@@@@@@*  *@@@@*
-    :@@@@@#  *@@@@@@*  #@@@@@:
-     :@@@@@#  *@@@@*  #@@@@@:
-       +++*@#  *@@*  #@*+++
-          :@@*  **  *@@:
-          :@@@*    *@@@:
-          :@@@@*  *@@@@:
-          :@@@@@**@@@@@:
-          :@@@@@@@@@@@@:
-          :@@@@@@@@@@@@:
-           #@@@@@@@@@@#
-            #@@@@@@@@#
-            .@@@@@@@@.
-             .@@@@@@.
-              :@@@@:
-               +@@+
-</pre>
+Computer Science at the University of Toronto Mississauga.  
+Building **[Gapwise](https://github.com/andrewmuratov/gapwise)** — campus software for making a student's timetable more useful.
 
-[gapwise.ca](https://gapwise.ca) &nbsp;·&nbsp;
-[docs](https://docs.gapwise.ca) &nbsp;·&nbsp;
-[github](https://github.com/andrewmuratov) &nbsp;·&nbsp;
-[orcid](https://orcid.org/0009-0007-0561-2945)
+[gapwise.ca](https://gapwise.ca) · [docs](https://docs.gapwise.ca) · [GitHub](https://github.com/andrewmuratov) · [ORCID](https://orcid.org/0009-0007-0561-2945)
 
-</div>
+## Projects
 
-<samp>about  ─────────────────────────────</samp>
+**[Gapwise](https://github.com/andrewmuratov/gapwise)** — timetable-aware campus navigation, gap planning, and leave-by timing for UTM.
 
-> CS student at the University of Toronto Mississauga.<br>
-> Security, systems, and software with clear boundaries.
+**[Gapwise Mobile](https://github.com/andrewmuratov/gapwise-mobile)** — native iOS and Android client for Gapwise.
 
-I build software around problems I actually have. Right now that's<br>
-[Gapwise](https://github.com/andrewmuratov/gapwise) — campus intelligence for UTM: timetable context, routing,<br>
-gap planning, leave-by timing, and the shape of a student's day.
+**[Gapwise AI](https://github.com/andrewmuratov/gapwise-ai)** — permissioned AI integrations built around explicit user context and bounded actions.
 
-<samp>stack  ─────────────────────────────</samp>
+**[Gapwise Docs](https://github.com/andrewmuratov/gapwise-docs)** — API, SDK, platform, and integration documentation.
 
-<samp>typescript &nbsp; react &nbsp; next.js &nbsp; python &nbsp; postgres &nbsp; react native &nbsp; expo &nbsp; maplibre &nbsp; linux</samp>
+## Stack
 
-<samp>projects  ──────────────────────────</samp>
+TypeScript · React · Next.js · React Native · Expo · Python · PostgreSQL · MapLibre · Linux
 
-**[gapwise](https://github.com/andrewmuratov/gapwise)** &nbsp;·&nbsp; <samp>typescript, react, maplibre</samp><br>
-The main web product and platform. Timetables, campus navigation, route-aware<br>
-gap planning, leave-by timing, and the canonical domain logic behind Gapwise.
+---
 
-**[gapwise-mobile](https://github.com/andrewmuratov/gapwise-mobile)** &nbsp;·&nbsp; <samp>react native, expo</samp><br>
-Native iOS and Android client for Gapwise, consuming the same platform<br>
-semantics instead of recreating timetable and routing logic on-device.
-
-**[gapwise-ai](https://github.com/andrewmuratov/gapwise-ai)** &nbsp;·&nbsp; <samp>typescript, mcp</samp><br>
-Permissioned AI integration for explicitly delegated student context and<br>
-bounded actions, while Gapwise remains the source of truth.
-
-**[gapwise-docs](https://github.com/andrewmuratov/gapwise-docs)** &nbsp;·&nbsp; <samp>openapi, typescript</samp><br>
-Public documentation for the API, SDKs, platform semantics, provenance,<br>
-and integrations.
-
-<samp>current  ───────────────────────────</samp>
-
-Algorithms, systems, cryptography, discrete mathematics, and rigorous software engineering.
+Security · privacy · systems · software.
