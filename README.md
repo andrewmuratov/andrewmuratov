@@ -3,7 +3,7 @@
 Computer Science at the University of Toronto Mississauga.  
 Building **[Gapwise](https://github.com/andrewmuratov/gapwise)** — campus software for making a student's timetable more useful.
 
-[gapwise.ca](https://gapwise.ca) · [docs](https://docs.gapwise.ca) · [GitHub](https://github.com/andrewmuratov) · [ORCID](https://orcid.org/0009-0007-0561-2945)
+[gapwise.ca](https://gapwise.ca) · [docs](https://docs.gapwise.ca) · [status](https://status.gapwise.ca) · [GitHub](https://github.com/andrewmuratov) · [ORCID](https://orcid.org/0009-0007-0561-2945)
 
 ## Projects
 
@@ -15,9 +15,11 @@ Building **[Gapwise](https://github.com/andrewmuratov/gapwise)** — campus soft
 
 **[Gapwise Docs](https://github.com/andrewmuratov/gapwise-docs)** — API, SDK, platform, and integration documentation.
 
+**[Gapwise Status](https://github.com/andrewmuratov/gapwise-status)** — live service health, incident history, and operational status for the Gapwise platform.
+
 ## Stack
 
-TypeScript · React · Next.js · React Native · Expo · Python · PostgreSQL · MapLibre · Linux
+TypeScript · React · Next.js · React Native · Expo · Astro · Python · PostgreSQL · MapLibre · Linux
 
 ---
 
