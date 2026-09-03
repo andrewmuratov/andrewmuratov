@@ -2,87 +2,195 @@
 
 # Andrew Muratov
 
-### Software · Cybersecurity · Platform Engineering
+### Computer Science · Software Engineering · Cybersecurity · Platform Systems
 
-**Computer Science at the University of Toronto Mississauga.**  
-Creator and lead engineer of **[Gapwise](https://gapwise.ca)** — a privacy-first campus-intelligence ecosystem spanning student software, deterministic routing and gap planning, public APIs and published SDKs, open campus data, permissioned AI, developer documentation, native mobile clients, and independent service monitoring.
+**Computer Science student at the University of Toronto Mississauga** building privacy-conscious software, developer platforms, campus systems, and security-minded infrastructure.
 
-[![Gapwise](https://img.shields.io/badge/Gapwise-gapwise.ca-4EA7FE?style=for-the-badge)](https://gapwise.ca)
-[![GitHub](https://img.shields.io/badge/GitHub-andrewmuratov-111111?style=for-the-badge&logo=github)](https://github.com/andrewmuratov)
+Creator and lead engineer of **[Gapwise](https://gapwise.ca)** — a campus-intelligence platform for UTM spanning a student web app, deterministic routing and gap planning, public APIs and SDKs, open campus data, native mobile, permissioned AI, developer documentation, and independent service monitoring.
+
+[![Gapwise](https://img.shields.io/badge/Gapwise-gapwise.ca-0A84FF?style=for-the-badge)](https://gapwise.ca)
+[![GitHub](https://img.shields.io/badge/GitHub-andrewmuratov-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/andrewmuratov)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--0561--2945-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-0561-2945)
 
-**[App](https://gapwise.ca)** · **[Data](https://data.gapwise.ca)** · **[AI](https://ai.gapwise.ca)** · **[Docs](https://docs.gapwise.ca)** · **[Status](https://status.gapwise.ca)** · **[API](https://api.gapwise.ca/v1)**
+**[App](https://gapwise.ca)** · **[Developers](https://gapwise.ca/developers)** · **[API](https://api.gapwise.ca/v1)** · **[Docs](https://docs.gapwise.ca)** · **[Data](https://data.gapwise.ca)** · **[AI](https://ai.gapwise.ca)** · **[Status](https://status.gapwise.ca)**
 
 </div>
 
 ---
 
-## What I build
+## About
 
-My work sits at the intersection of **software engineering, cybersecurity and privacy engineering, platform architecture, data systems, developer tooling, mobile engineering, and AI integration**.
+I like building software where **product design, systems thinking, privacy, security, and infrastructure meet**.
 
-Gapwise is the main expression of that work: one product identity split across deliberately separate execution and trust boundaries. The web app owns canonical student-state behavior and deterministic campus calculations; the API and published SDKs expose reusable campus intelligence; Data documents provenance and schemas; Mobile consumes the same contracts natively; AI adds a permissioned OAuth/MCP boundary; Docs describes released behavior; and Status communicates operational health independently.
+My main project is Gapwise. What started as a way to make the time between classes more useful has grown into a connected software ecosystem with deliberately separated trust boundaries, reusable public platform contracts, native and web clients, open campus data, independent monitoring, and an AI integration layer that does not replace deterministic product logic.
 
-I care about systems that are useful without being careless about user data: local-first flows where possible, explicit permission boundaries, deterministic logic for safety-critical calculations, visible uncertainty, small public interfaces, and infrastructure that fails honestly instead of pretending to know more than it does.
+The engineering principles I care about most are straightforward:
+
+- **deterministic logic where correctness matters**;
+- **local-first and data-minimizing flows where possible**;
+- **explicit permission and trust boundaries**;
+- **small, well-defined public interfaces**;
+- **visible uncertainty instead of false confidence**;
+- **systems that fail honestly and can be operated in the real world**.
 
 ---
 
-## Gapwise ecosystem
+## Flagship project — Gapwise
 
-| Surface | What it does |
+> **A privacy-first campus-intelligence ecosystem for UTM.**
+
+Gapwise turns a student's timetable into practical campus context: what comes next, where to go, how long a route takes, how much time is actually usable between classes, when to leave, and whether a destination is realistically reachable before the next class.
+
+The platform now includes:
+
+| Surface | Role |
 | --- | --- |
-| **[Gapwise](https://github.com/andrewmuratov/gapwise)** | Core web/PWA, timetable intelligence, Today, deterministic gap planning, campus routing, leave-by timing, encrypted sync, public API, OpenAPI contract, and SDK source |
-| **[Gapwise Mobile](https://github.com/andrewmuratov/gapwise-mobile)** | Native iOS and Android client built on the canonical Gapwise product and platform contracts |
-| **[Gapwise AI](https://github.com/andrewmuratov/gapwise-ai)** | Permissioned OAuth/MCP integration layer for explicitly delegated student context and bounded AI actions |
-| **[Gapwise Data](https://github.com/andrewmuratov/gapwise-data)** | Open data and provenance layer for the campus map, including collection, schemas, verification, attribution, and reuse |
-| **[Gapwise Docs](https://github.com/andrewmuratov/gapwise-docs)** | Developer documentation for the API, SDKs, platform semantics, security boundaries, and AI/MCP integration |
-| **[Gapwise Status](https://github.com/andrewmuratov/gapwise-status)** | Independent service-health, monitoring-freshness, and incident-history surface for the ecosystem |
-
-The architectural rule across the ecosystem is straightforward: **Gapwise owns the facts and deterministic calculations; every other interface consumes or explains those contracts instead of inventing a parallel source of truth.**
-
-### Published developer packages
-
-The first public Gapwise SDK release is live in both ecosystems:
-
-```bash
-npm install @gapwise/sdk@0.1.0
-python -m pip install gapwise==0.1.0
-```
-
-The Python package was released through PyPI Trusted Publishing and independently verified from a clean environment against the production Gapwise API. Both SDKs target the canonical `https://api.gapwise.ca/v1` contract.
-
----
-
-## Engineering areas
-
-**Cybersecurity & privacy**  
-OAuth boundaries · explicit delegation · browser-side encryption · Supabase RLS · secret separation · abuse protection · threat modeling · fail-closed behavior · responsible disclosure
-
-**Platform & backend**  
-TypeScript · API design · OpenAPI 3.1 · SDK design · Python packaging · PostgreSQL · Supabase · Vercel · Cloudflare · Resend · GitHub Actions · OIDC trusted publishing
-
-**Product & frontend**  
-React · TanStack Start/Router · Next.js · React Native · Expo · Astro · accessibility · responsive UI · PWA architecture
-
-**Data & campus systems**  
-MapLibre · GeoJSON · routing graphs · provenance · schema design · deterministic planning · uncertainty modeling · reusable public datasets
-
-**AI integration**  
-Model Context Protocol · OAuth-protected MCP · permissioned context delegation · bounded mutations · grounding deterministic data for assistants
-
-**Languages & environment**  
-TypeScript · JavaScript · Python · SQL · Linux
-
----
-
-## Current focus
-
-I am continuing to harden Gapwise as a cohesive platform rather than treating each surface as a separate demo: improving real-device validation, campus-data quality, accessibility evidence, API/SDK release quality, privacy and security boundaries, monitoring, documentation, and the connections between the web, mobile, data, AI, docs, and operational layers.
+| **[gapwise](https://github.com/andrewmuratov/gapwise)** | Core web/PWA, timetable intelligence, Today, deterministic gap planning, routing, leave-by timing, account/sync features, public API, OpenAPI contract, and SDK source |
+| **[gapwise-mobile](https://github.com/andrewmuratov/gapwise-mobile)** | Native iOS and Android client built with Expo and React Native |
+| **[gapwise-ai](https://github.com/andrewmuratov/gapwise-ai)** | OAuth-protected MCP layer for explicitly delegated student context and bounded AI actions |
+| **[gapwise-data](https://github.com/andrewmuratov/gapwise-data)** | Open campus-data, provenance, schemas, validation, attribution, and reuse |
+| **[gapwise-docs](https://github.com/andrewmuratov/gapwise-docs)** | Public developer documentation for APIs, SDKs, security boundaries, data semantics, and AI/MCP integration |
+| **[gapwise-status](https://github.com/andrewmuratov/gapwise-status)** | Independently deployed service-health, monitoring-freshness, and incident-history surface |
 
 <div align="center">
 
-**Security · privacy · systems · software.**
+**Web / PWA** → **deterministic platform contracts** → **API & SDKs**  
+↙︎ **Mobile** · **Open Data** · **Permissioned AI** · **Docs** · **Status** ↘︎
 
-[Gapwise →](https://gapwise.ca)
+</div>
+
+The architectural rule is simple: **Gapwise owns canonical facts and deterministic calculations; other surfaces consume, expose, monitor, or explain those contracts instead of inventing parallel truth.**
+
+### What it currently covers
+
+- Browser-side ACORN `.ics` timetable import and guest-first usage
+- Timetable intelligence and route-aware gap planning
+- Today view, leave-by timing, arrival estimates, and transition protection
+- Campus map, route confidence, and fail-closed step-free routing behavior
+- “Can I go there?” two-leg destination feasibility checks
+- Day Replay for browser-side simulation of a campus day
+- Optional encrypted sync and account continuity
+- Public campus API with an OpenAPI 3.1 contract
+- Versioned campus building/place data with provenance and uncertainty metadata
+- Official TypeScript and Python SDKs
+- Native mobile client
+- Permissioned OAuth/MCP integration for compatible assistants
+- Independent public documentation, data, and operational-status surfaces
+- Auth and transactional-email infrastructure, including an in-product mail workflow
+
+---
+
+## Public developer platform
+
+Gapwise exposes deterministic campus intelligence through a public API rather than private student data.
+
+```text
+API       https://api.gapwise.ca/v1
+OpenAPI   https://api.gapwise.ca/openapi.json
+Docs      https://docs.gapwise.ca
+Data      https://data.gapwise.ca
+```
+
+### SDKs
+
+```bash
+npm install @gapwise/sdk@0.1.1
+python -m pip install gapwise==0.1.0
+```
+
+The TypeScript SDK is published for modern JavaScript runtimes and the Python SDK is published through PyPI Trusted Publishing. Both consume the canonical Gapwise public API contract.
+
+---
+
+## Engineering focus
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+### Security & privacy
+
+OAuth and delegated authorization  
+Supabase RLS and caller-scoped access  
+Browser-side encryption  
+Secret separation and safe client/server boundaries  
+Abuse protection and fail-closed behavior  
+Threat modeling and responsible disclosure
+
+</td>
+<td valign="top" width="50%">
+
+### Platform & backend
+
+TypeScript and API design  
+OpenAPI 3.1 and SDK design  
+PostgreSQL / Supabase  
+Python packaging  
+Vercel / Cloudflare / Resend  
+GitHub Actions and OIDC publishing
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+### Product & mobile
+
+React and TanStack  
+Next.js  
+React Native / Expo  
+MapLibre  
+PWA architecture  
+Accessibility and responsive interfaces
+
+</td>
+<td valign="top" width="50%">
+
+### Data, systems & AI
+
+GeoJSON and routing graphs  
+Provenance and schema design  
+Deterministic planning  
+Uncertainty modeling  
+Model Context Protocol  
+Permissioned AI context and bounded mutations
+
+</td>
+</tr>
+</table>
+
+### Languages & daily environment
+
+`TypeScript` · `JavaScript` · `Python` · `SQL` · `Linux`
+
+---
+
+## Current work
+
+Right now I am focused on taking Gapwise from a broad, working ecosystem to a **more deeply validated and operationally mature platform**.
+
+That means continuing to improve:
+
+- real-device and cross-surface validation;
+- campus routing, accessibility evidence, and data quality;
+- privacy and security boundaries;
+- CI, release engineering, and SDK publishing;
+- documentation quality and source-of-truth consistency;
+- monitoring and failure visibility;
+- mobile parity with canonical product contracts;
+- authenticated product workflows and transactional communication;
+- the connection between web, mobile, data, AI, docs, and operations without duplicating core logic.
+
+Gapwise is an **independent student software project** and is not affiliated with, endorsed by, or an official service of the University of Toronto.
+
+---
+
+<div align="center">
+
+### Build useful systems. Keep the boundaries clear.
+
+**Security · privacy · software · systems**
+
+[**Explore Gapwise →**](https://gapwise.ca)
 
 </div>
