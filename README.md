@@ -5,7 +5,7 @@
 ### Software · Cybersecurity · Platform Engineering
 
 **Computer Science at the University of Toronto Mississauga.**  
-Creator and lead engineer of **[Gapwise](https://gapwise.ca)** — a privacy-first campus-intelligence ecosystem spanning student software, deterministic routing and gap planning, public APIs and SDKs, open campus data, permissioned AI, developer documentation, native mobile clients, and independent service monitoring.
+Creator and lead engineer of **[Gapwise](https://gapwise.ca)** — a privacy-first campus-intelligence ecosystem spanning student software, deterministic routing and gap planning, public APIs and published SDKs, open campus data, permissioned AI, developer documentation, native mobile clients, and independent service monitoring.
 
 [![Gapwise](https://img.shields.io/badge/Gapwise-gapwise.ca-4EA7FE?style=for-the-badge)](https://gapwise.ca)
 [![GitHub](https://img.shields.io/badge/GitHub-andrewmuratov-111111?style=for-the-badge&logo=github)](https://github.com/andrewmuratov)
@@ -21,7 +21,7 @@ Creator and lead engineer of **[Gapwise](https://gapwise.ca)** — a privacy-fir
 
 My work sits at the intersection of **software engineering, cybersecurity and privacy engineering, platform architecture, data systems, developer tooling, mobile engineering, and AI integration**.
 
-Gapwise is the main expression of that work: one product identity split across deliberately separate execution and trust boundaries. The web app owns canonical student-state behavior and deterministic campus calculations; the API and SDKs expose reusable campus intelligence; Data documents provenance and schemas; Mobile consumes the same contracts natively; AI adds a permissioned OAuth/MCP boundary; Docs describes released behavior; and Status communicates operational health independently.
+Gapwise is the main expression of that work: one product identity split across deliberately separate execution and trust boundaries. The web app owns canonical student-state behavior and deterministic campus calculations; the API and published SDKs expose reusable campus intelligence; Data documents provenance and schemas; Mobile consumes the same contracts natively; AI adds a permissioned OAuth/MCP boundary; Docs describes released behavior; and Status communicates operational health independently.
 
 I care about systems that are useful without being careless about user data: local-first flows where possible, explicit permission boundaries, deterministic logic for safety-critical calculations, visible uncertainty, small public interfaces, and infrastructure that fails honestly instead of pretending to know more than it does.
 
@@ -40,6 +40,17 @@ I care about systems that are useful without being careless about user data: loc
 
 The architectural rule across the ecosystem is straightforward: **Gapwise owns the facts and deterministic calculations; every other interface consumes or explains those contracts instead of inventing a parallel source of truth.**
 
+### Published developer packages
+
+The first public Gapwise SDK release is live in both ecosystems:
+
+```bash
+npm install @gapwise/sdk@0.1.0
+python -m pip install gapwise==0.1.0
+```
+
+The Python package was released through PyPI Trusted Publishing and independently verified from a clean environment against the production Gapwise API. Both SDKs target the canonical `https://api.gapwise.ca/v1` contract.
+
 ---
 
 ## Engineering areas
@@ -48,7 +59,7 @@ The architectural rule across the ecosystem is straightforward: **Gapwise owns t
 OAuth boundaries · explicit delegation · browser-side encryption · Supabase RLS · secret separation · abuse protection · threat modeling · fail-closed behavior · responsible disclosure
 
 **Platform & backend**  
-TypeScript · API design · OpenAPI 3.1 · SDK design · PostgreSQL · Supabase · Vercel · Cloudflare · Resend · GitHub Actions
+TypeScript · API design · OpenAPI 3.1 · SDK design · Python packaging · PostgreSQL · Supabase · Vercel · Cloudflare · Resend · GitHub Actions · OIDC trusted publishing
 
 **Product & frontend**  
 React · TanStack Start/Router · Next.js · React Native · Expo · Astro · accessibility · responsive UI · PWA architecture
