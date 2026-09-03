@@ -91,14 +91,20 @@ Docs      https://docs.gapwise.ca
 Data      https://data.gapwise.ca
 ```
 
-### SDKs
+### Published SDKs
 
 ```bash
+# npm
 npm install @gapwise/sdk@0.1.1
+
+# JSR
+deno add jsr:@gapwise/sdk@0.1.1
+
+# PyPI
 python -m pip install gapwise==0.1.0
 ```
 
-The TypeScript SDK is published for modern JavaScript runtimes and the Python SDK is published through PyPI Trusted Publishing. Both consume the canonical Gapwise public API contract.
+The official TypeScript SDK is published to both **[npm](https://www.npmjs.com/package/@gapwise/sdk)** and **[JSR](https://jsr.io/@gapwise/sdk)**, while the Python SDK is published through PyPI Trusted Publishing. All distributions consume the canonical Gapwise public API contract.
 
 ---
 
