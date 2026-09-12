@@ -4,9 +4,9 @@
 
 ### Computer Science · Software Engineering · Cybersecurity
 
-Computer Science student at the **University of Toronto Mississauga** building privacy-conscious software and security-minded systems. I like projects where correctness, clear boundaries, and thoughtful user experience all matter.
+Computer Science student at the **University of Toronto Mississauga**, building privacy-conscious software and security-minded systems. I’m most interested in projects where correctness, clear boundaries, and thoughtful user experience all matter.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-donotdisconnect.online-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://donotdisconnect.online)
+[![Portfolio](https://img.shields.io/badge/Portfolio-donotdisconnect.online-111111?style=for-the-badge)](https://donotdisconnect.online)
 [![Gapwise](https://img.shields.io/badge/Gapwise-gapwise.ca-0A84FF?style=for-the-badge)](https://gapwise.ca)
 [![Gapwise GitHub](https://img.shields.io/badge/GitHub-Gapwise--for--UTM-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gapwise-for-UTM)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--0561--2945-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-0561-2945)
