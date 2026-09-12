@@ -4,13 +4,14 @@
 
 ### Computer Science · Software Engineering · Cybersecurity
 
-Computer Science student at the **University of Toronto Mississauga** building privacy-conscious software, developer platforms, and security-minded systems.
+Computer Science student at the **University of Toronto Mississauga** building privacy-conscious software and security-minded systems. I like projects where correctness, clear boundaries, and thoughtful user experience all matter.
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-donotdisconnect.online-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://donotdisconnect.online)
 [![Gapwise](https://img.shields.io/badge/Gapwise-gapwise.ca-0A84FF?style=for-the-badge)](https://gapwise.ca)
 [![Gapwise GitHub](https://img.shields.io/badge/GitHub-Gapwise--for--UTM-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gapwise-for-UTM)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--0561--2945-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-0561-2945)
 
-[**Gapwise**](https://gapwise.ca) · [**Developers**](https://gapwise.ca/developers) · [**Docs**](https://docs.gapwise.ca) · [**Data**](https://data.gapwise.ca) · [**Status**](https://status.gapwise.ca)
+[**Portfolio**](https://donotdisconnect.online) · [**Gapwise**](https://gapwise.ca) · [**Developers**](https://gapwise.ca/developers) · [**Docs**](https://docs.gapwise.ca) · [**Data**](https://data.gapwise.ca) · [**Status**](https://status.gapwise.ca)
 
 </div>
 
@@ -20,9 +21,9 @@ Computer Science student at the **University of Toronto Mississauga** building p
 
 > **A privacy-first campus-intelligence ecosystem for UTM.**
 
-I created **[Gapwise](https://gapwise.ca)** to turn a student's timetable into useful campus context — where to go, how long a route takes, how much time is actually usable between classes, and when to leave.
+I created **[Gapwise](https://gapwise.ca)** to turn a student's timetable into useful campus context: where to go, how long a route takes, how much time is actually usable between classes, and when to leave.
 
-It is built around a simple rule: **canonical facts and deterministic calculations live at the core; every other surface consumes those contracts instead of inventing parallel truth.**
+Its architecture follows a simple rule: **canonical facts and deterministic calculations live at the core; every other surface consumes those contracts instead of inventing parallel truth.**
 
 | Repository | Purpose |
 | --- | --- |
@@ -55,6 +56,6 @@ I care most about **security boundaries, deterministic systems, data provenance,
 
 ### Build useful systems. Keep the boundaries clear.
 
-[**Explore Gapwise →**](https://gapwise.ca)
+[**Portfolio →**](https://donotdisconnect.online) · [**Explore Gapwise →**](https://gapwise.ca)
 
 </div>
