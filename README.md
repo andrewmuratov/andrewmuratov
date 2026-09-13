@@ -11,7 +11,7 @@ Computer Science student at the **University of Toronto Mississauga**, building 
 [![Gapwise GitHub](https://img.shields.io/badge/GitHub-Gapwise--for--UTM-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gapwise-for-UTM)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--0561--2945-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-0561-2945)
 
-[**Portfolio**](https://donotdisconnect.online) · [**Gapwise**](https://gapwise.ca) · [**Developers**](https://gapwise.ca/developers) · [**Docs**](https://docs.gapwise.ca) · [**Data**](https://data.gapwise.ca) · [**AI**](https://ai.gapwise.ca) · [**Status**](https://status.gapwise.ca)
+[**Portfolio**](https://donotdisconnect.online) · [**Gapwise**](https://gapwise.ca) · [**Android**](https://github.com/Gapwise-for-UTM/android) · [**iOS**](https://github.com/Gapwise-for-UTM/ios) · [**Developers**](https://gapwise.ca/developers) · [**Docs**](https://docs.gapwise.ca) · [**Data**](https://data.gapwise.ca) · [**AI**](https://ai.gapwise.ca) · [**Status**](https://status.gapwise.ca)
 
 </div>
 
@@ -19,18 +19,21 @@ Computer Science student at the **University of Toronto Mississauga**, building 
 
 ## Gapwise
 
-> **A privacy-first campus-intelligence ecosystem for UTM.**
+> **Privacy-first timetable intelligence for University of Toronto students, with a first-party campus map/routing/data layer focused on UTM.**
 
-I created **[Gapwise](https://gapwise.ca)** to turn a student's timetable into useful campus context: where to go, how long a route takes, how much time is actually usable between classes, and when to leave.
+I created **[Gapwise](https://gapwise.ca)** to turn a student’s timetable into useful context: what comes next, how much time is actually usable between classes, where a student can realistically go, and when they need to leave.
 
-Its architecture follows a simple rule: **canonical facts and deterministic calculations live at the core; every other surface consumes those contracts instead of inventing parallel truth.** The project now spans a web product, native Android client, public API and SDKs, open campus data, permissioned AI/MCP integration, developer documentation, and independent service monitoring.
+Timetable identity supports **UTM, UTSG, UTSC, and mixed-campus schedules**. The current first-party campus map, routing graph, and open-data layer are deliberately UTM-focused rather than pretending equivalent coverage exists at every campus.
+
+Its architecture follows a simple rule: **canonical facts and deterministic calculations have an owner; every interface consumes those contracts instead of inventing parallel truth.** The project spans a web/PWA, native Android and iOS clients, public API and SDKs, open campus data, permissioned AI/MCP integration, developer documentation, and independent service monitoring.
 
 | Repository | Purpose |
 | --- | --- |
-| **[`gapwise`](https://github.com/Gapwise-for-UTM/gapwise)** | Core web/PWA, timetable intelligence, routing, planning, API and SDK contracts |
+| **[`gapwise`](https://github.com/Gapwise-for-UTM/gapwise)** | Core web/PWA, timetable intelligence, routing, planning, public API/OpenAPI and SDK source |
 | **[`android`](https://github.com/Gapwise-for-UTM/android)** | Native Kotlin + Jetpack Compose Android client |
+| **[`ios`](https://github.com/Gapwise-for-UTM/ios)** | Native Swift + SwiftUI iOS client |
 | **[`ai`](https://github.com/Gapwise-for-UTM/ai)** | Permissioned OAuth/MCP integration layer |
-| **[`data`](https://github.com/Gapwise-for-UTM/data)** | Open campus data, schemas, provenance and validation |
+| **[`data`](https://github.com/Gapwise-for-UTM/data)** | Canonical public UTM campus data, schemas, provenance and validation |
 | **[`docs`](https://github.com/Gapwise-for-UTM/docs)** | Public developer and architecture documentation |
 | **[`status`](https://github.com/Gapwise-for-UTM/status)** | Independent service health and incident visibility |
 
@@ -44,9 +47,9 @@ Its architecture follows a simple rule: **canonical facts and deterministic calc
 
 ## Engineering
 
-**TypeScript · JavaScript · Python · Kotlin · SQL · Linux**
+**TypeScript · JavaScript · Python · Kotlin · Swift · SQL · Linux**
 
-React · TanStack · Next.js · Jetpack Compose · Android · PostgreSQL / Supabase · OpenAPI · MapLibre · GitHub Actions
+React · TanStack · Next.js · Jetpack Compose · SwiftUI · Android · iOS · PostgreSQL / Supabase · OpenAPI · MapLibre · GitHub Actions
 
 I care most about **security boundaries, deterministic systems, data provenance, clear public interfaces, and software that fails honestly.**
 
