@@ -2,9 +2,9 @@
 
 # Andrew Muratov
 
-### Computer Science @ UTM · Creator of Gapwise · Software, Security & Systems
+### Mathematics & Information Security @ University of Toronto · Creator & Lead Engineer of Gapwise
 
-Computer Science student at the **University of Toronto Mississauga** building privacy-conscious software, deterministic systems, developer platforms, and native applications. I care most about work where **correctness, security boundaries, data provenance, and user experience** all matter at the same time.
+I study **Mathematics and Information Security at the University of Toronto** and build privacy-conscious software, deterministic systems, developer platforms, and native applications. I care most about work where **correctness, security boundaries, data provenance, formal reasoning, and user experience** all matter at the same time.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-donotdisconnect.online-111111?style=for-the-badge)](https://donotdisconnect.online)
 [![Gapwise](https://img.shields.io/badge/Gapwise-gapwise.ca-0A84FF?style=for-the-badge)](https://gapwise.ca)
@@ -19,19 +19,23 @@ Computer Science student at the **University of Toronto Mississauga** building p
 
 ## About
 
-I study Computer Science at **UTM** and am especially interested in **information security, software architecture, developer tooling, deterministic systems, and applied mathematics**.
+I study **Mathematics and Information Security at the University of Toronto** and am the creator and lead engineer of **Gapwise**, an open-source campus-intelligence platform built for UTM students.
 
-My main project is **Gapwise**, but I also work on web and native application development, open developer infrastructure, small research projects, Linux tooling, and technical writing. I prefer systems with explicit contracts, conservative failure modes, and clear ownership of truth over software that hides uncertainty behind polished output.
+My work spans software engineering, platform engineering, application security, data systems, native mobile development, developer tooling, APIs, and infrastructure. I am especially interested in **information security, systems, mathematics, formal reasoning, and software architecture**.
+
+I prefer systems with explicit contracts, conservative failure modes, clear ownership of truth, and security and privacy built into the architecture rather than added afterward.
 
 ---
 
 ## Gapwise
 
-> **Timetable intelligence for University of Toronto students, with a first-party campus map, routing, and open-data layer focused on UTM.**
+> **Timetable intelligence, gap planning, campus routing, and open campus data for UTM.**
 
-I created **[Gapwise](https://gapwise.ca)** to turn a timetable into a usable day: what comes next, how much time is actually free between classes, where a student can realistically go, and when they need to leave.
+I created **[Gapwise](https://gapwise.ca)** around a simple problem: a timetable tells you when class happens, but not what to do with the time around it.
 
-Timetable identity supports **UTM, UTSG, UTSC, and mixed-campus schedules**. The current first-party campus map, routing graph, places layer, and open campus-data model are deliberately **UTM-focused** rather than pretending equivalent coverage exists at every campus.
+Gapwise turns a UTM schedule into a usable day: what comes next, how much time is actually free between classes, where a student can realistically go, and when they need to leave.
+
+It has grown into an interconnected software platform spanning timetable intelligence, gap planning, campus routing, native Android and iOS applications, public APIs and SDKs, canonical campus data, developer tooling, documentation, service monitoring, and permissioned AI integration.
 
 The architecture follows one rule:
 
@@ -85,7 +89,7 @@ That principle carries across the web app, native clients, API and SDKs, open da
 - clear **security and trust boundaries**;
 - deterministic behavior where correctness matters;
 - explicit **provenance and uncertainty** for real-world data;
-- useful guest/local-first behavior before requiring accounts or cloud state;
+- local-first behavior before requiring accounts or cloud state;
 - stable public interfaces and versioned contracts;
 - accessible, responsive interfaces that do not sacrifice technical rigor;
 - failure states that are visible and honest rather than silently guessed around.
@@ -94,7 +98,7 @@ That principle carries across the web app, native clients, API and SDKs, open da
 
 ## Beyond Gapwise
 
-My broader work includes **mathematics, science-fair projects, research experiments, technical writing, and software tooling**. The best overview is on my portfolio:
+My broader work includes **mathematics, information security, research experiments, technical writing, and software tooling**. The best overview is on my portfolio:
 
 <div align="center">
 
