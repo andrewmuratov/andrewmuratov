@@ -8,7 +8,7 @@ I study **Mathematics and Information Security at the University of Toronto** an
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-donotdisconnect.online-111111?style=for-the-badge)](https://donotdisconnect.online)
 [![Gapwise](https://img.shields.io/badge/Gapwise-gapwise.ca-0A84FF?style=for-the-badge)](https://gapwise.ca)
-[![Gapwise GitHub](https://img.shields.io/badge/GitHub-Gapwise--for--UTM-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gapwise-for-UTM)
+[![Gapwise GitHub](https://img.shields.io/badge/GitHub-Gapwise--for--UTM-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gapwise-for-UofT)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0007--0561--2945-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0007-0561-2945)
 
 [**Portfolio**](https://donotdisconnect.online) · [**Gapwise**](https://gapwise.ca) · [**Developers**](https://gapwise.ca/developers) · [**Docs**](https://docs.gapwise.ca) · [**Data**](https://data.gapwise.ca) · [**AI**](https://ai.gapwise.ca) · [**Status**](https://status.gapwise.ca)
@@ -47,13 +47,13 @@ That principle carries across the web app, native clients, API and SDKs, open da
 
 | Repository | Role | Current direction |
 | --- | --- | --- |
-| **[`gapwise`](https://github.com/Gapwise-for-UTM/gapwise)** | Core web/PWA, timetable intelligence, deterministic routing/planning, public API, OpenAPI, SDK source | Canonical product and developer-platform contracts |
-| **[`android`](https://github.com/Gapwise-for-UTM/android)** | Native Android client | Kotlin + Jetpack Compose |
-| **[`ios`](https://github.com/Gapwise-for-UTM/ios)** | Native iOS client | Swift + SwiftUI |
-| **[`ai`](https://github.com/Gapwise-for-UTM/ai)** | Permissioned AI integration boundary | OAuth + MCP with bounded delegated context |
-| **[`data`](https://github.com/Gapwise-for-UTM/data)** | Canonical public UTM campus facts | Schemas, geometry, provenance, validation, routing inputs |
-| **[`docs`](https://github.com/Gapwise-for-UTM/docs)** | Public developer documentation | API, SDK, architecture, security, data and AI documentation |
-| **[`status`](https://github.com/Gapwise-for-UTM/status)** | Independent operational surface | Service health and incident communication |
+| **[`gapwise`](https://github.com/Gapwise-for-UofT/gapwise)** | Core web/PWA, timetable intelligence, deterministic routing/planning, public API, OpenAPI, SDK source | Canonical product and developer-platform contracts |
+| **[`android`](https://github.com/Gapwise-for-UofT/android)** | Native Android client | Kotlin + Jetpack Compose |
+| **[`ios`](https://github.com/Gapwise-for-UofT/ios)** | Native iOS client | Swift + SwiftUI |
+| **[`ai`](https://github.com/Gapwise-for-UofT/ai)** | Permissioned AI integration boundary | OAuth + MCP with bounded delegated context |
+| **[`data`](https://github.com/Gapwise-for-UofT/data)** | Canonical public UTM campus facts | Schemas, geometry, provenance, validation, routing inputs |
+| **[`docs`](https://github.com/Gapwise-for-UofT/docs)** | Public developer documentation | API, SDK, architecture, security, data and AI documentation |
+| **[`status`](https://github.com/Gapwise-for-UofT/status)** | Independent operational surface | Service health and incident communication |
 
 <div align="center">
 
@@ -114,6 +114,6 @@ I also maintain an **[ORCID record](https://orcid.org/0009-0007-0561-2945)** for
 
 ### Build useful systems. Keep the boundaries clear.
 
-[**Portfolio →**](https://donotdisconnect.online) · [**Gapwise →**](https://gapwise.ca) · [**GitHub organization →**](https://github.com/Gapwise-for-UTM)
+[**Portfolio →**](https://donotdisconnect.online) · [**Gapwise →**](https://gapwise.ca) · [**GitHub organization →**](https://github.com/Gapwise-for-UofT)
 
 </div>
