@@ -4,7 +4,7 @@
 
 ### Computer Science @ University of Toronto · Information Security, Systems & Mathematics · Founder & Lead Engineer of Gapwise
 
-I’m a first-year **Computer Science student at the University of Toronto Mississauga** and the founder and lead engineer of **Gapwise**. I build privacy-conscious software, deterministic systems, developer platforms, campus-data infrastructure, and native applications.
+I’m a first-year **Computer Science student at the University of Toronto Mississauga** and the founder and lead engineer of **Gapwise**, a free and open-source multi-university timetable, campus navigation, and student planning platform serving **eleven Canadian universities**.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-donotdisconnect.online-111111?style=for-the-badge)](https://donotdisconnect.online)
 [![Gapwise](https://img.shields.io/badge/Gapwise-gapwise.ca-0A84FF?style=for-the-badge)](https://gapwise.ca)
@@ -35,29 +35,33 @@ I created **[Gapwise](https://gapwise.ca)** around a simple problem: a universit
 
 Gapwise turns a schedule into a campus-aware model of the day: **what comes next, how much usable time exists between classes, where a student can realistically go, when they need to leave, and how certain the underlying campus information is.**
 
-It has grown from a University of Toronto project into one shared platform supporting **seven Canadian universities**:
+It is one shared platform supporting **eleven Canadian universities**:
 
-- **University of Toronto** — UTM, St. George, and Scarborough
+- **University of Toronto** — Mississauga, St. George, and Scarborough
 - **Carleton University**
 - **Toronto Metropolitan University**
 - **Queen’s University**
 - **Wilfrid Laurier University**
 - **York University**
 - **McMaster University**
+- **Western University**
+- **University of Guelph**
+- **University of Ottawa (uOttawa)**
+- **Brock University**
 
-Each university edition uses its own timetable adapter, campus data, routing context, terminology, and branding while sharing one canonical application and deterministic planning core.
+Each university edition uses its own timetable adapter, campus data, building and entrance context, routing graph, terminology, branding, and import guidance while sharing one canonical application and deterministic planning core.
 
 ### What Gapwise includes
 
-- local-first timetable import and parsing
+- local-first, university-aware timetable import and parsing
 - gap detection and usable-time calculations
 - deterministic leave-by and walking-time planning
-- source-backed campus maps and pedestrian routing
-- multi-university campus data with provenance and validation
+- source-backed campus maps, building data, entrances, and pedestrian routing
+- canonical multi-university campus data with provenance and validation
 - public API, OpenAPI specification, TypeScript and Python SDKs
+- MCP / AI tooling that understands every supported university
 - native Android and iOS clients
-- OAuth/MCP integration for bounded AI access
-- public documentation, contribution tooling, and service monitoring
+- public documentation, contribution tooling, SEO/discovery surfaces, and service monitoring
 
 ### Gapwise ecosystem
 
@@ -67,9 +71,8 @@ Each university edition uses its own timetable adapter, campus data, routing con
 | **[`data`](https://github.com/GapwiseHQ/data)** | Canonical multi-university campus data, schemas, provenance, validation, and contribution tooling |
 | **[`android`](https://github.com/GapwiseHQ/android)** | Native Android client built with Kotlin and Jetpack Compose |
 | **[`ios`](https://github.com/GapwiseHQ/ios)** | Native iOS client built with Swift and SwiftUI |
-| **[`ai`](https://github.com/GapwiseHQ/ai)** | OAuth/MCP boundary for explicitly delegated context and bounded AI actions |
-| **[`cli`](https://github.com/GapwiseHQ/cli)** | University scaffolding, validation, and development tooling |
-| **[`docs`](https://github.com/GapwiseHQ/docs)** | API, SDK, architecture, security, data, and AI documentation |
+| **[`ai`](https://github.com/GapwiseHQ/ai)** | OAuth/MCP boundary and university-aware AI integration |
+| **[`docs`](https://github.com/GapwiseHQ/docs)** | API, SDK, architecture, security, data, routing, timetable, and AI documentation |
 | **[`status`](https://github.com/GapwiseHQ/status)** | Independent service-health and incident communication |
 
 <div align="center">
@@ -87,6 +90,8 @@ Each university edition uses its own timetable adapter, campus data, routing con
 - **Campus data:** [data.gapwise.ca](https://data.gapwise.ca)
 - **AI / MCP:** [ai.gapwise.ca](https://ai.gapwise.ca)
 - **Service status:** [status.gapwise.ca](https://status.gapwise.ca)
+
+The same supported-university model is carried through the app, campus data, timetable adapters, routing, API, OpenAPI, SDKs, MCP, AI, documentation, status monitoring, SEO, and machine-readable discovery surfaces.
 
 The architecture follows one rule:
 
