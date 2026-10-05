@@ -4,7 +4,7 @@
 
 ### Computer Science @ University of Toronto · Information Security, Systems & Mathematics · Founder & Lead Engineer of Gapwise
 
-I’m a first-year **Computer Science student at the University of Toronto Mississauga** and the founder and lead engineer of **Gapwise**, a free and open-source multi-university timetable, campus navigation, and student planning platform supporting **27 universities and 67 campuses across Canada and the United States**.
+I’m a first-year **Computer Science student at the University of Toronto Mississauga** and the founder and lead engineer of **Gapwise**, a free and open-source multi-university timetable, campus navigation, and student planning platform with timetable import for **28 universities** and **74 implemented campus models across Canada, the United States, and France**.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-donotdisconnect.online-111111?style=for-the-badge)](https://donotdisconnect.online)
 [![Gapwise](https://img.shields.io/badge/Gapwise-gapwise.ca-0A84FF?style=for-the-badge)](https://gapwise.ca)
@@ -35,13 +35,15 @@ I created **[Gapwise](https://gapwise.ca)** around a simple problem: a universit
 
 Gapwise turns a schedule into a campus-aware model of the day: **what comes next, how much usable time exists between classes, where a student can realistically go, when they need to leave, and which campus the schedule belongs to.**
 
-Today, Gapwise has a canonical registry of **27 universities and 67 campuses across Canada and the United States**. Timetable support, campus inference, university-specific editions, campus data, API/SDK contracts, documentation, AI/MCP discovery, and service monitoring are all built around that shared registry.
+Today, Gapwise has timetable import for **28 universities** and **74 implemented campus models across Canada, the United States, and France**. Timetable support, campus inference, university-specific editions, campus data, API/SDK contracts, documentation, AI/MCP discovery, and service monitoring are all built around a shared canonical registry.
 
-### Supported universities
+### Universities with timetable import
 
 **Canada:** University of Toronto, University of British Columbia, McGill University, University of Waterloo, Carleton University, Toronto Metropolitan University, Queen’s University, Wilfrid Laurier University, York University, McMaster University, Western University, University of Guelph, University of Ottawa, and Brock University.
 
 **United States:** Carnegie Mellon University, University of California, Berkeley, New York University, Massachusetts Institute of Technology, Stanford University, University of Pennsylvania, Cornell University, Dartmouth College, Brown University, Columbia University, Princeton University, Yale University, and Harvard University.
+
+**France:** Sorbonne Université.
 
 Multi-campus universities are modeled as one university with canonical campus IDs and campus-aware routing/selection rather than requiring a separate public hostname for every campus. Dedicated campus editions are kept where they are useful, such as U of T’s Mississauga, St. George, and Scarborough editions and UBC’s Vancouver and Okanagan editions.
 
@@ -59,7 +61,7 @@ Multi-campus universities are modeled as one university with canonical campus ID
 - native Android and iOS projects
 - public documentation, contribution tooling, SEO/discovery surfaces, and service monitoring
 
-Navigation coverage is **campus-dependent**: established campuses have richer building, entrance, and routing data, while newer or secondary campuses may currently have partial coverage. Gapwise keeps those limitations explicit rather than inventing geometry or routes.
+Navigation coverage is **campus-dependent**: established campuses have richer building, entrance, and routing data, while newer or secondary campuses may currently have partial coverage. **Gapwise Data** is provenance-first and auditable, with source-classified entrances, route evidence, schemas, and contribution tooling; limitations stay explicit rather than being filled with fabricated geometry or routes.
 
 ### Gapwise ecosystem
 
